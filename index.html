@@ -1,80 +1,288 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <ul class="menu">
-        
-        <li class="link"><a href="#Favorite_food">Main</a></li>
-        <li class="link"><a href="#fastfood">Food</a></li>
-        <li class="link"><a href="#Contact">Contact</a></li>
-        
-    </ul>
 
-<section id="Favorite_food">
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
 
-    
-    
-    <h1> <span id="myname">My Favorite Food </span></h1>
-   
-    </section>
-    
-    
-  
-    
-    <section id="foodfood" class='food'>
-        <h1> Fast Food</h1>
-        
-        <div class="line"></div><div id="myname" >
-        I love Burgers and Pizzas</div>
-       
-      <div>  
-      <span>  
-          <!-- Add the link, https://en.wikipedia.org/wiki/Burger    to the anchor tag below-->
-               <a href="https://en.wikipedia.org/wiki/Burger " target="_blank">
-                    <img id="picture" src="burger.jpg"> </a> </span>
-               <span>  
-         <!-- Add the link, https://en.wikipedia.org/wiki/Pizza     to the anchor tag below-->
-               <a href=" https://en.wikipedia.org/wiki/Pizza" target="_blank">
-                <img id="picture" src="pizza.jpg"> </a> </span>
-    </div>    
-    </section>
-    <section id="Contact">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mario</a>
+    </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="400" width="800" frameborder="0" allowfullscreen=""></iframe>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#contact">About Me</a></li>
+      </ul>
+    </div>
 
-        <div class="contact_1">
+  </nav>
 
-           <a href="mailto:pratikshagajraj@gmail.com?Subject=Hello" id="myname">
-            <br>
- <!--  Use 'fa fa-envelope' to display envelope icon with Email address-->
-               <i class="fa fa-envelope">&nbsp;<span id="myname">emmajr@gmail.com</span></i>
-               
-            </a> 
-           
-           <br><br>
-                <a href="#" id="myname"> 
-               
-               <i class="fa fa-instagram" >&nbsp;<span >EmmaJr1234</span></i>
-            </a> 
+  <!--
+Start coding from here
+-->
+  <div class="container">
 
-        </div>
-        
+    <h2 class="page-header" id="travel">Places Must Visit</h2>
 
-    </section>
-    
-    
-    
-    </body></html>
+    <center>
+      <div class="travel_mainDiv">
+        <img src="trave1.jpeg">
+
+        <h4 class="text-capitalize"><kbd>prithvi cafe</kbd></h4>
+
+        <hr>
+
+        <h5 class="text-succes text-capitalize">i had visited in dec 2018</h5>
+
+        <p>little restaurant tucked inside a by-lane of Juhu. Blink and you will miss the entrance to the cafe. So
+          be alert enough to spot the black signboard that says "Prithvi cafe" while you are on the main road. The
+          restaurant has a reasonably good menu at reasonable prices. The food is delicious, the servings are quite
+          large and some dishes can be shared by 2 people. Attracts quite a trendy crowd of aspiring celebrities on show
+          days. Be sure to book in advance to avoid disappointments. On other days, the crowd there is pretty hep &
+          happening. Hosts the famous "Prithvi theater fest" , which you must attend if possible
+        </p>
+      </div>
+    </center>
+
+
+
+
+
+
+
+
+    <center>
+      <div class="travel_mainDiv">
+        <img src="DisneyLand.jpg">
+
+        <h4 class="text-capitalize"><kbd>disney land</kbd></h4>
+
+        <hr>
+
+        <h5 class="text-succes text-capitalize">i had visited in May 2023</h5>
+
+        <p>
+          Disneyland Paris is an entertainment resort in Chessy, France, 32 kilometres (20 miles) east of Paris. It
+          encompasses two theme parks, resort hotels, a shopping, dining and entertainment complex, and a golf course.
+          Disneyland Park is the original theme park of the complex, opening in 1992.
+        </p>
+      </div>
+    </center>
+
+
+
+
+
+
+    <center>
+      <div class="travel_mainDiv">
+        <img src="Greece.jpg">
+
+        <h4 class="text-capitalize"><kbd>Greece</kbd></h4>
+
+        <hr>
+
+        <h5 class="text-succes text-capitalize">i have lived here for 4 years</h5>
+
+        <p>
+          Greece has the longest coastline in Europe and is the southernmost country in Europe. The mainland has
+          rugged mountains, forests, and lakes, but the country is well known for the thousands of islands dotting
+          the blue Aegean Sea to the east, the Mediterranean Sea to the south, and the Ionian Sea to the west.
+        </p>
+      </div>
+    </center>
+
+    <h2 class="page-header" id="movies">Review On The Movies</h2>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+      <span class="glyphicon glyphicon-film"></span>Avengers Endgame<i class="fa fa-sort-desc"></i>
+    </div>
+
+
+    <div id="avengers_endgame" class="collapse">
+
+      <div class="movie_text">
+        <img src="movie1.jpeg" class="img-responsive img-thumbnail">
+        <h5 class="text-success text-capitalize">Excellent film to culminate MCU ride
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+        </h5>
+        <p>Where to begin, where to begin! You know a movie is outstanding when the end credits alone are more epic than
+          the majority of films released in the last 20 years! This film is the pure definition of an emotional roller
+          coaster and throughout its run time brings about fascination, humor, sadness, incredible excitement, and sheer
+          finality. This is not your typical superhero movie and some viewers used to the entertaining, nonstop action
+          style of the previous films may be disappointed, but I think that this movie brilliantly satisfies and
+          subverts expectations.</p>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Lion_King">
+      <span class="glyphicon glyphicon-film"></span>Lion King<i class="fa fa-sort-desc"></i>
+
+    </div>
+
+
+    <div id="Lion_King" class="collapse">
+      <div class="movie_text">
+        <img src="movie2.jpg" class="img-responsive img-thumbnail">
+        <h5 class="text-success text-capitalize">Excellent film to culminate Lion production
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+        </h5>
+        <p>This is a fantastic movie, and I am not lying! my 13 year old sister loves this movie, and I can't fault this
+          either. It was one of the first movies I ever saw, so that accounts for how much I love it. The animation is
+          superb, the backgrounds look so rich, and for once, there are no stiff movements. The highlights were the
+          stampede and the fight between Scar and Simba. The music by Hans Zimmer is outstanding, a perfect mix of
+          African chants and pure Hollywood. The songs are absolutely great, I had no idea that Elton John could write
+          like that. The best song is "Can you feel the Love Tonight?" but the others go without fault, "Circle of Life"
+          is so spirit rousing especially. Likewise with the voice overs. Jonathan Taylor Thomas is very likable as
+          Young Simba, and Matthew Broderick, while not as good, is above average too. James Earl Jones lends his
+          booming voice to the majestic King Mufassa, and Nathan Lane, Rowan Atkinson and Whoopi Goldberg provide
+          flawless comic relief. The vocal standout is Jeremy Irons as Scar, who frightened me when I was little. Scar
+          is up there with the best Disney villains, like Jafar, Malificent and Frollo. The humour here is fantastic,
+          and you cry here a bit here as well. I highly recommend the stage version in the West End, and the sequels are
+          actually two of the better DTV sequels.10/10..</p>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Across_the_Spider_Verse">
+      <span class="glyphicon glyphicon-film"></span>Across The Spider Verse<i class="fa fa-sort-desc"></i>
+
+    </div>
+
+
+    <div id="Across_the_Spider_Verse" class="collapse">
+      <div class="movie_text">
+        <img src="Movie3.jpg" class="img-responsive img-thumbnail">
+        <h5 class="text-success text-capitalize">Excellent film to culminate Across the Spider Verse
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+          <span class="glyphicon glyphicon-star"></span>
+        </h5>
+        <p>Across the Spider-Verse is a movie that has taken the world by storm, and for good reason. The movie is a
+          must-watch for anyone who enjoys a good story, stunning visuals, and thrilling action sequences. This movie is
+          a sequel to the 2018 movie, Spider-Man: Into the Spider-Verse, which was already a massive hit. The sequel
+          takes the story to the next level, and it is a movie that you simply cannot afford to miss.
+
+          One of the most spectacular aspects of the movie is its animation. The movie is beautifully crafted, with
+          every frame looking like a work of art. The animation is so good that it makes you feel like you are watching
+          a comic book come to life. The use of different animation styles for different characters adds to the overall
+          visual appeal of the movie. The attention to detail is incredible, and it is clear that the filmmakers put a
+          lot of thought and effort into creating a visually stunning movie.
+
+          Another reason why Across the Spider-Verse is a must-watch is its storyline. The movie takes place in an
+          alternate universe, where different versions of Spider-Man exist. The central character, Miles Morales, is a
+          new Spider-Man who is just learning to use his powers. He is joined by other versions of Spider-Man, each with
+          their own unique abilities and stories. The movie explores themes of family, friendship, and the
+          responsibility that comes with having great power. The storyline is engaging and keeps you hooked from start
+          to finish.
+
+          Finally, the action sequences in the movie are simply breathtaking. The fight scenes are choreographed to
+          perfection, with each character using their unique abilities to their fullest potential. The use of
+          slow-motion and other cinematic techniques adds to the overall impact of the action sequences. The final
+          battle is particularly impressive, with the fate of the multiverse hanging in the balance.
+
+          In conclusion, Across the Spider-Verse is a must-watch movie that is sure to leave you breathless. The
+          stunning animation, engaging storyline, and thrilling action sequences make it a movie that you simply cannot
+          afford to miss. If you are a fan of Spider-Man or just love a good superhero movie, then this is the movie for
+          you. So, grab some popcorn, sit back, and enjoy the ride. You won't be disappointed.</p>
+
+
+
+      </div>
+
+      <h2 class="page-header" id="books">List of Books</h2>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+        <img src="Wonder.jpg" class="img-responsive">
+         <hr>
+        <a href="https://www.amazon.co.uk/Wonder-Illustrated-R-J-Palacio/dp/0593378172" target="_blank">Wonder </a>
+
+      </div>
+
+      <div class="col-lg-6-col-md-6-col-sm-6-col-xs-6 book">
+        <img src="HowToTrainYourDragon.jpg" class="img-responsive">
+        <hr>
+        <a
+          href="https://www.amazon.co.uk/Train-Your-Dragon-Cressida-Cowell/dp/0340999071/ref=sr_1_3?dib=eyJ2IjoiMSJ9._FT5fNOc3biRyxyUkMEkxBg0EbArNFXyp8b5lDzynKR7vp9yQ4ByposL066K2XFrYj5dMJBFVmPwoGoDz2dppeAsEOmnGvHjQKt3SvVVrAGqKJslBrVdSxJEiPFKNM5k2h4i2H3ek19ZawoNjwJOVOZISjquRBKvWeIGOzX01gDUx95n7bmw9PdXUwBHm4iD7tpbWJthOy4dnJ20nvIcthnbL1k5va9F0vxq3k5eIN4.YR_mOD-DlGrr1AENOgd7hXX9JLccYs6u83KjcUfFaRI&dib_tag=se&keywords=how+to+train+your+dragon&qid=1708705345&sr=8-3" target="_blank">How
+          To Train Your Dragon</a>
+
+
+        <div>
+
+
+
+
+
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin"
+            height="450" width="100%" frameborder="0" allowfullscreen=""></iframe>
+
+
+          <div class="contact_1">
+
+            <a href="mailto:my@gmail.com?Subject=Hi">
+              <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a>
+
+            <a href="#">
+              <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+          </div>
+          </section>
+
+
+</body>
+
+</html>
